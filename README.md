@@ -1,6 +1,6 @@
 # YFinance-ETL Technical Report
 
-##Data Cleanup & Analysis
+## Data Cleanup & Analysis
 <strong>The sources of data that you will extract from.</strong>
 
 
@@ -15,7 +15,7 @@ The final tables or collections that will be used in the production database.
 
 You will be required to submit a final technical report with the above information and steps required to reproduce your ETL process.
 
-##Project Report
+## Project Report
 At the end of the week, your team will submit a Final Report that describes the following:
 
 
