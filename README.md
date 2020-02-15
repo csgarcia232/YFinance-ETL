@@ -1,4 +1,5 @@
 # Technical Report YFinance-ETL 
+Goal was to pull stock data from top electric car manufacturers and understand their current market status trends. 
 
 ## Data Cleanup & Analysis
 <strong>The sources of data that you will extract from.</strong><br>
@@ -14,13 +15,12 @@ Final database relational (Postgres Database)
 Table containing Adj Close and Volume car stock data
 
 ## Project Report
-<strong>Extract: your original data sources and how the data was formatted (CSV, JSON, pgAdmin 4, etc).</strong>
+<strong><u>Extract</u>: your original data sources and how the data was formatted (CSV, JSON, pgAdmin 4, etc).</strong>
+Data is from a library called yfinance that replicates the Yahoo! Finance API
 
+<strong><u>Transform</u>: what data cleaning or transformation was required.</strong>
+We were able to call specific stock data points and filter by dates. We then merged and cleaned data to send into Postgres to run additional calculations and insights. 
 
-<strong>Transform: what data cleaning or transformation was required.</strong>
+<strong><u>Load</u>: the final database, tables/collections, and why this was chosen.</strong>
+We chose to use Postgres database for compatibility reasons and to run additional calculations on the imported table. 
 
-
-<strong>Load: the final database, tables/collections, and why this was chosen.</strong>
-
-
-<strong>Please upload the report to Github and submit a link to Bootcampspot.</strong>
