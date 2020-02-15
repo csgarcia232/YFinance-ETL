@@ -2,10 +2,10 @@
 
 ## Data Cleanup & Analysis
 <strong>The sources of data that you will extract from.</strong><br>
-Data from YFinance resource https://github.com/ranaroussi/yfinance
+* Data from YFinance resource https://github.com/ranaroussi/yfinance
 
-<strong>The type of transformation needed for this data (cleaning, joining, filtering, aggregating, etc).</strong><br>
-Import yfinance data as Pandas dataframe, merge tables, clean data, export to sql, run calculations. 
+<strong>The type of transformation needed for this data (cleaning, joining, filtering, aggregating, etc).</strong>
+* Import yfinance data as Pandas dataframe, merge tables, clean data, export to sql, run calculations. 
 
 The type of final production database to load the data into (relational or non-relational).
 
