@@ -1,11 +1,11 @@
-# YFinance-ETL Technical Report
+# Technical Report YFinance-ETL 
 
 ## Data Cleanup & Analysis
-<strong>The sources of data that you will extract from.</strong>
+<strong>The sources of data that you will extract from.</strong><br>
+Data from YFinance resource https://github.com/ranaroussi/yfinance
 
-
-The type of transformation needed for this data (cleaning, joining, filtering, aggregating, etc).
-
+<strong>The type of transformation needed for this data (cleaning, joining, filtering, aggregating, etc).</strong><br>
+Import yfinance data as Pandas dataframe, merge tables, clean data, export to sql, run calculations. 
 
 The type of final production database to load the data into (relational or non-relational).
 
