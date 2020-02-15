@@ -2,15 +2,16 @@
 
 ## Data Cleanup & Analysis
 <strong>The sources of data that you will extract from.</strong><br>
-* Data from YFinance resource https://github.com/ranaroussi/yfinance
+Data from YFinance resource https://github.com/ranaroussi/yfinance
 
 <strong>The type of transformation needed for this data (cleaning, joining, filtering, aggregating, etc).</strong>
-* Import yfinance data as Pandas dataframe, merge tables, clean data, export to sql, run calculations. 
+Import yfinance data as Pandas dataframe, merge tables, clean data, export to sql, run calculations. 
 
-The type of final production database to load the data into (relational or non-relational).
+<strong>The type of final production database to load the data into (relational or non-relational).</strong>
+Final database relational (Postgres Database)
 
-
-The final tables or collections that will be used in the production database.
+<strong>The final tables or collections that will be used in the production database.</strong>
+Table containing Adj Close and Volume car stock data
 
 
 You will be required to submit a final technical report with the above information and steps required to reproduce your ETL process.
